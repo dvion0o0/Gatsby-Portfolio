@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "name": "stacks",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "stack": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
