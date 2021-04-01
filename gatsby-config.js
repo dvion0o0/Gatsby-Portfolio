@@ -10,9 +10,8 @@ module.exports = {
     title: "WebDev Portfolio",
     description: "This is WebDev Portfolio Site",
     author: "@webdev",
-    twitterUsername: "@john_smilga",
+    twitterUsername: "ThisIsDvGhosh",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -31,6 +30,7 @@ module.exports = {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
         contentTypes: [`jobs`, `projects`, `blogs`],
+        singleTypes: [`about`],
       },
     },
   ],
